@@ -10,16 +10,58 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+    .content {
+      background-color: #D5E1EF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 98vh;
+    }
+    .container {
+      display: inline-block;
+      background-color: #FFFFFF;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .image {
+      display: inline-block;
+    }
+    .image img {
+      width: 288px;
+      height: 288px;
+      border-radius: 8px;
+    }
+    .hidden {
+      display: none;
+    }
+    h2, p {
+      font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+      text-align: center;
+    }
+    p {
+      color: #999999;
+    }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
+  <div class="content">
+    <div class="container">
+      <div class="image">
+        <img src="images/image-qr-code.png" />
+      </div>
+      <h2>Improve your front-end<br/>skills by building projects</h2>
+      <p>Scan the QR code to visit Frontend<br/>Mentor and take your coding skills to<br/>the next level</p>
+    </div>
+  </div>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
