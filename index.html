@@ -50,12 +50,13 @@
     .hidden {
       display: none;
     }
-    h2, p {
+    h1, p {
       font-family: 'Outfit', sans-serif;
       text-align: center;
     }
-    h2 {
+    h1 {
       color: var(--dark-blue);
+      font-size: 16pt;
       font-weight: 700;
       padding-top: 8px;
     }
@@ -69,19 +70,23 @@
 </head>
 <body>
 
-  <div class="content">
-    <div class="container">
-      <div class="image">
-        <img alt="QR code image" src="images/image-qr-code.png" />
+  <main role="main">
+    <div class="content">
+      <div class="container">
+        <div class="image">
+          <img alt="QR code image" src="images/image-qr-code.png" />
+        </div>
+        <h1>Improve your front-end<br/>skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend<br/>Mentor and take your coding skills to<br/>the next level</p>
       </div>
-      <h2>Improve your front-end<br/>skills by building projects</h2>
-      <p>Scan the QR code to visit Frontend<br/>Mentor and take your coding skills to<br/>the next level</p>
     </div>
-  </div>
+  </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer role="contentinfo">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
 </body>
 </html>
